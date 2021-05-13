@@ -49,3 +49,6 @@ As this software package is quite extensive I suggest trying
 out the individual modules and reading through the demo-programs
 aswell as checking out the big debug plot section to get an
 insight on the functionality of this software.
+
+If you want more information about this software, don't hesitate
+to contact me. 
