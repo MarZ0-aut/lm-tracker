@@ -50,15 +50,13 @@ out the individual modules and reading through the demo-programs
 aswell as checking out the big debug plot section to get an
 insight on the functionality of this software.
 
+This software package was created during my Master-Thesis 
+at the Medical University of Innsbruck, Institut for Biomedical
+Physics, supervised by RITSCH-MARTE M. and THALHAMMER G.
 
 If you want more information about this software, don't hesitate
 to contact me. If you make use of this software in a publication
 please use the citation:
-
-
-This software package was created during my Master-Thesis 
-at the Medical University of Innsbruck, Institut for Biomedical
-Physics, supervised by RITSCH-MARTE M. and THALHAMMER G.
 
 Zobernig, M. "Methodischer Vergleich in der 3D-Lokalisation von
 optisch-gefangenen Mikropartikeln mittels klassischer Algorithmen und
