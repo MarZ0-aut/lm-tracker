@@ -10,7 +10,7 @@ Physics, supervised by RITSCH-MARTE M. and THALHAMMER G.
 
 If you make use of this software in a publication please use the citation:
 
-Zobernig, M. "Methodischer Vergleich in der 3D-Lokalisation von
+Zobernig, M., "Methodischer Vergleich in der 3D-Lokalisation von
 optisch-gefangenen Mikropartikeln mittels klassischer Algorithmen und
 schneller Fokussierung", Masterarbeit, Leopold-Franzens-Universität
 Innsbruck, 2021.
