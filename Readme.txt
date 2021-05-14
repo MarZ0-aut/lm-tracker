@@ -1,4 +1,4 @@
-Overview of the Tracking module:
+## Overview of the Tracking module:
 
 This tracking module evaluates individual or a series of
 inline holographic images where the features of interest
