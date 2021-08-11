@@ -32,7 +32,7 @@ ctx = cl.Context(dev_type=cl.device_type.GPU,
 queue = cl.CommandQueue(ctx)
 
 # initialize class, hand over necessary parameters
-Ihc = Sim.InlineHoloCL(queue, ctx, tuning_parameters, theory_parameters)
+Ihc = Sim.InlineHoloCL(queue, ctx, tuning_parameters, theory_parameters, "full")
 
 # do the initial setup (image size)
 shape = (1200, 1920)
