@@ -32,7 +32,7 @@ ctx = cl.Context(dev_type=cl.device_type.GPU,
 queue = cl.CommandQueue(ctx)
 
 # initialize class, hand over necessary parameters
-Ihc = Sim.InlineHoloCL(queue, ctx, tuning_parameters, theory_parameters)
+Ihc = Sim.InlineHoloCL(queue, ctx, tuning_parameters, theory_parameters, "full")
 
 # do the initial setup (image size)
 shape = (256, 256)
@@ -76,7 +76,7 @@ def one_particle_example():
                           [p0_est],# parameter list
                           arr,     # fit array
                           [10],    # mask radius for that particle (in px)
-                          debug=True)
+                          )
 
     return parfit0
 
@@ -100,7 +100,7 @@ def two_particle_example():
     # give parameter estimation for 2 particle fit
     p10 = [3, -5, -5, -0, 1.57, 1]
     p11 = [3, +5, +5, +7, 1.57, 1]
-    parfit1 = Ihc.fit_sel(img1, [p10, p11], arr, [10, 10], debug=True)
+    parfit1 = Ihc.fit_sel(img1, [p10, p11], arr, [10, 10])
 
     return parfit1
 
